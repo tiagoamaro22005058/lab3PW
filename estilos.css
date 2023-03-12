@@ -1,0 +1,106 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstDiv {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    font-size: 3rem;
+}
+
+.secondDiv {
+    position: relative;
+    width: 100%;
+    color: chartreuse;
+    font-size: 2rem;
+}
+
+#p1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px
+}
+
+.capitais {
+    display: flex;
+    background-color: antiquewhite;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 10px;
+}
+
+.capitais>div {
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #888;
+    display: flex;
+}
+
+.capitais img {
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
+
+.capitais div div:last-child {
+
+    width: 150px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: sticky;
+    background-color: rgb(187, 251, 50);
+    height: 10vh;
+    top: 0;
+    z-index: 999;
+    justify-content: space-between;
+    display: flex;
+    color: blue;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    background-color: gray;
+    font-weight: bold;
+}
+
+.headere {
+    grid-area: header;
+}
+
+.ElementoCent {
+    grid-area: centrado
+}
+
+.image {
+    grid-area: imagen;
+}
+
+.Capeuro {
+    grid-area: capitais;
+}
+
